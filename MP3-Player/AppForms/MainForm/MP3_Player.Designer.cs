@@ -52,7 +52,7 @@
             // pictureBox
             // 
             this.pictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox.Image")));
+            this.pictureBox.Image = global::MP3_Player.Properties.Resources.sound_wave;
             this.pictureBox.Location = new System.Drawing.Point(0, 0);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(797, 598);
@@ -76,9 +76,9 @@
             // aboutProgramButton
             // 
             this.aboutProgramButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.aboutProgramButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("aboutProgramButton.BackgroundImage")));
+            this.aboutProgramButton.BackgroundImage = global::MP3_Player.Properties.Resources.setting;
             this.aboutProgramButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.aboutProgramButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.aboutProgramButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.aboutProgramButton.FlatAppearance.BorderSize = 0;
             this.aboutProgramButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.aboutProgramButton.Location = new System.Drawing.Point(11, 7);
@@ -92,9 +92,9 @@
             // closeButton
             // 
             this.closeButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.closeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("closeButton.BackgroundImage")));
+            this.closeButton.BackgroundImage = global::MP3_Player.Properties.Resources.close_button;
             this.closeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.closeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.closeButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.closeButton.FlatAppearance.BorderSize = 0;
             this.closeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.closeButton.Location = new System.Drawing.Point(66, 7);
@@ -119,9 +119,9 @@
             // uploadMultipleAudioFilesButton
             // 
             this.uploadMultipleAudioFilesButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.uploadMultipleAudioFilesButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uploadMultipleAudioFilesButton.BackgroundImage")));
+            this.uploadMultipleAudioFilesButton.BackgroundImage = global::MP3_Player.Properties.Resources.folder;
             this.uploadMultipleAudioFilesButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.uploadMultipleAudioFilesButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uploadMultipleAudioFilesButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.uploadMultipleAudioFilesButton.FlatAppearance.BorderSize = 0;
             this.uploadMultipleAudioFilesButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.uploadMultipleAudioFilesButton.Location = new System.Drawing.Point(70, 12);
@@ -135,9 +135,9 @@
             // uploadSingleAudioFileButton
             // 
             this.uploadSingleAudioFileButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.uploadSingleAudioFileButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("uploadSingleAudioFileButton.BackgroundImage")));
+            this.uploadSingleAudioFileButton.BackgroundImage = global::MP3_Player.Properties.Resources.music;
             this.uploadSingleAudioFileButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.uploadSingleAudioFileButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uploadSingleAudioFileButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.uploadSingleAudioFileButton.FlatAppearance.BorderSize = 0;
             this.uploadSingleAudioFileButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.uploadSingleAudioFileButton.Location = new System.Drawing.Point(12, 12);
@@ -164,9 +164,9 @@
             // playPreviousAudioButton
             // 
             this.playPreviousAudioButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.playPreviousAudioButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("playPreviousAudioButton.BackgroundImage")));
+            this.playPreviousAudioButton.BackgroundImage = global::MP3_Player.Properties.Resources.back_button;
             this.playPreviousAudioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.playPreviousAudioButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.playPreviousAudioButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.playPreviousAudioButton.FlatAppearance.BorderSize = 0;
             this.playPreviousAudioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playPreviousAudioButton.Location = new System.Drawing.Point(20, 12);
@@ -180,9 +180,9 @@
             // playNextAudioButton
             // 
             this.playNextAudioButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.playNextAudioButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("playNextAudioButton.BackgroundImage")));
+            this.playNextAudioButton.BackgroundImage = global::MP3_Player.Properties.Resources.next_button;
             this.playNextAudioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.playNextAudioButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.playNextAudioButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.playNextAudioButton.FlatAppearance.BorderSize = 0;
             this.playNextAudioButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playNextAudioButton.Location = new System.Drawing.Point(191, 12);
@@ -196,9 +196,9 @@
             // resetButton
             // 
             this.resetButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.resetButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resetButton.BackgroundImage")));
+            this.resetButton.BackgroundImage = global::MP3_Player.Properties.Resources.reset_button;
             this.resetButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.resetButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.resetButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.resetButton.FlatAppearance.BorderSize = 0;
             this.resetButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.resetButton.Location = new System.Drawing.Point(134, 12);
@@ -213,9 +213,9 @@
             // 
             this.playAndPauseButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.playAndPauseButton.BackColor = System.Drawing.Color.Transparent;
-            this.playAndPauseButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("playAndPauseButton.BackgroundImage")));
+            this.playAndPauseButton.BackgroundImage = global::MP3_Player.Properties.Resources.play_button;
             this.playAndPauseButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.playAndPauseButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.playAndPauseButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.playAndPauseButton.FlatAppearance.BorderSize = 0;
             this.playAndPauseButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.playAndPauseButton.Location = new System.Drawing.Point(77, 12);
@@ -241,9 +241,9 @@
             // volumeMuteButton
             // 
             this.volumeMuteButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.volumeMuteButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("volumeMuteButton.BackgroundImage")));
+            this.volumeMuteButton.BackgroundImage = global::MP3_Player.Properties.Resources.silent;
             this.volumeMuteButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.volumeMuteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.volumeMuteButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.volumeMuteButton.FlatAppearance.BorderSize = 0;
             this.volumeMuteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.volumeMuteButton.Location = new System.Drawing.Point(12, 12);
@@ -257,9 +257,9 @@
             // volumeDownButton
             // 
             this.volumeDownButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.volumeDownButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("volumeDownButton.BackgroundImage")));
+            this.volumeDownButton.BackgroundImage = global::MP3_Player.Properties.Resources.volume_down;
             this.volumeDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.volumeDownButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.volumeDownButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.volumeDownButton.FlatAppearance.BorderSize = 0;
             this.volumeDownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.volumeDownButton.Location = new System.Drawing.Point(69, 12);
@@ -273,9 +273,9 @@
             // volumeUpButton
             // 
             this.volumeUpButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.volumeUpButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("volumeUpButton.BackgroundImage")));
+            this.volumeUpButton.BackgroundImage = global::MP3_Player.Properties.Resources.volume_up;
             this.volumeUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.volumeUpButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.volumeUpButton.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.volumeUpButton.FlatAppearance.BorderSize = 0;
             this.volumeUpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.volumeUpButton.Location = new System.Drawing.Point(126, 12);
@@ -303,7 +303,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::MP3_Player.Properties.Resources.sound_wave;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(797, 598);
             this.Controls.Add(this.audioTitleLable);
