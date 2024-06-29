@@ -17,8 +17,8 @@ namespace MP3_Player.MainForm.AppForms {
             player = new WaveOut();
             audioPlaylist = new Vector<string>();
 
-            playImage = Image.FromFile(@"C:\Dev\Projects\CSharpProgramming\CSharp-Projects-Icons\MP3-Player-IconsPack\play-button.png");
-            pauseImage = Image.FromFile(@"C:\Dev\Projects\CSharpProgramming\CSharp-Projects-Icons\MP3-Player-IconsPack\pause-button.png");
+            playImage = new Bitmap(Properties.Resources.play_button);
+            pauseImage = new Bitmap(Properties.Resources.pause_button);
         }
 
         #region Close Application
@@ -271,8 +271,8 @@ namespace MP3_Player.MainForm.AppForms {
 
         #region Audio Player Variables
 
-        private readonly Image playImage;
-        private readonly Image pauseImage;
+        private readonly Bitmap playImage;
+        private readonly Bitmap pauseImage;
 
         private IWavePlayer player;
         private AudioFileReader reader;
